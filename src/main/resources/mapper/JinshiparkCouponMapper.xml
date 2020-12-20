@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.imooc.mapper.JinshiparkCouponMapper" >
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.JinshiparkCoupon" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="CouponID" property="couponid" jdbcType="VARCHAR" />
+    <result column="Name" property="name" jdbcType="VARCHAR" />
+    <result column="Type" property="type" jdbcType="INTEGER" />
+    <result column="Count" property="count" jdbcType="INTEGER" />
+    <result column="RemainCount" property="remaincount" jdbcType="VARCHAR" />
+    <result column="StartDate" property="startdate" jdbcType="TIMESTAMP" />
+    <result column="EndDate" property="enddate" jdbcType="TIMESTAMP" />
+    <result column="StartTime" property="starttime" jdbcType="VARCHAR" />
+    <result column="EndTime" property="endtime" jdbcType="VARCHAR" />
+    <result column="ReductionTime" property="reductiontime" jdbcType="INTEGER" />
+    <result column="ReductionMoney" property="reductionmoney" jdbcType="INTEGER" />
+    <result column="CreateTime" property="createtime" jdbcType="TIMESTAMP" />
+    <result column="ShopID" property="shopid" jdbcType="VARCHAR" />
+    <result column="AreaID" property="areaid" jdbcType="VARCHAR" />
+    <result column="ParkID" property="parkid" jdbcType="VARCHAR" />
+    <result column="AgentID" property="agentid" jdbcType="VARCHAR" />
+    <result column="Remarks" property="remarks" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

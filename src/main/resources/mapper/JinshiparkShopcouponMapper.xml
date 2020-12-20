@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.JinshiparkShopcouponMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.JinshiparkShopcoupon">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="CouponName" jdbcType="VARCHAR" property="couponname" />
+    <result column="CouponType" jdbcType="VARCHAR" property="coupontype" />
+    <result column="Count" jdbcType="INTEGER" property="count" />
+    <result column="RemainCount" jdbcType="INTEGER" property="remaincount" />
+    <result column="ShopID" jdbcType="VARCHAR" property="shopid" />
+    <result column="AgentID" jdbcType="VARCHAR" property="agentid" />
+    <result column="ParkID" jdbcType="VARCHAR" property="parkid" />
+    <result column="AreaID" jdbcType="VARCHAR" property="areaid" />
+    <result column="StartTime" jdbcType="TIMESTAMP" property="starttime" />
+    <result column="EndTime" jdbcType="TIMESTAMP" property="endtime" />
+    <result column="CreateTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="Remarks" jdbcType="VARCHAR" property="remarks" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.JinshiparkShopcoupon">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="CouponName" jdbcType="VARCHAR" property="couponname" />
+    <result column="CouponType" jdbcType="VARCHAR" property="coupontype" />
+    <result column="coupon_count" jdbcType="INTEGER" property="couponCount" />
+    <result column="coupon_starttime" jdbcType="TIMESTAMP" property="couponStarttime" />
+    <result column="coupon_endtime" jdbcType="TIMESTAMP" property="couponEndtime" />
+    <result column="coupon_createtime" jdbcType="TIMESTAMP" property="couponCreatetime" />
+    <result column="ShopID" jdbcType="INTEGER" property="shopid" />
+    <result column="AgentID" jdbcType="INTEGER" property="agentid" />
+    <result column="ParkID" jdbcType="INTEGER" property="parkid" />
+    <result column="AreaID" jdbcType="INTEGER" property="areaid" />
+    <result column="RemainCount" jdbcType="VARCHAR" property="remaincount" />
+    <result column="jcg_relief_alltime" jdbcType="VARCHAR" property="jcgReliefAlltime" />
+    <result column="jcg_relief_remaintime" jdbcType="VARCHAR" property="jcgReliefRemaintime" />
+    <result column="jcg_relief_allmoney" jdbcType="VARCHAR" property="jcgReliefAllmoney" />
+    <result column="jcg_relief_remainmoney" jdbcType="VARCHAR" property="jcgReliefRemainmoney" />
+    <result column="Remarks" jdbcType="VARCHAR" property="remarks" />
+  </resultMap>
+</mapper>

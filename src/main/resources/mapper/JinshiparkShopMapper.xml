@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.JinshiparkShopMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.JinshiparkShop">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="ShopID" jdbcType="VARCHAR" property="shopid" />
+    <result column="ShopName" jdbcType="VARCHAR" property="shopname" />
+    <result column="LoginName" jdbcType="VARCHAR" property="loginname" />
+    <result column="Password" jdbcType="VARCHAR" property="password" />
+    <result column="ParkID" jdbcType="VARCHAR" property="parkid" />
+    <result column="AgentID" jdbcType="VARCHAR" property="agentid" />
+    <result column="AreaID" jdbcType="VARCHAR" property="areaid" />
+    <result column="UserName" jdbcType="VARCHAR" property="username" />
+    <result column="Phone" jdbcType="VARCHAR" property="phone" />
+    <result column="CreateTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="Remarks" jdbcType="VARCHAR" property="remarks" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.JinshiparkShop">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="ShopID" jdbcType="VARCHAR" property="shopid" />
+    <result column="ShopName" jdbcType="VARCHAR" property="shopname" />
+    <result column="UserName" jdbcType="VARCHAR" property="username" />
+    <result column="Phone" jdbcType="VARCHAR" property="phone" />
+    <result column="LoginName" jdbcType="VARCHAR" property="loginname" />
+    <result column="Password" jdbcType="VARCHAR" property="password" />
+    <result column="ParkID" jdbcType="VARCHAR" property="parkid" />
+    <result column="AgentID" jdbcType="VARCHAR" property="agentid" />
+    <result column="AreaID" jdbcType="VARCHAR" property="areaid" />
+    <result column="CreateTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="Remarks" jdbcType="VARCHAR" property="remarks" />
+  </resultMap>
+</mapper>
